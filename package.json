@@ -5,11 +5,14 @@
   "author": "araujRafael <araujodiniz1994@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev":"nodemon src/app.js",
-    "build":"",
-    "start":""
+    "dev": "nodemon src/app.js",
+    "build": "",
+    "start": ""
   },
   "dependencies": {
     "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "sucrase": "^3.20.3"
   }
 }
